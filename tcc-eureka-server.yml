@@ -5,8 +5,6 @@ eureka:
   instance:
     hostname: localhost
   client:
-    username: user
-    password: secret
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
